@@ -8,14 +8,15 @@ permalink: /privacy/
 
 WristTalk is a voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch. It has two parts: the
 **[WristTalk watch app](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme)** ([Connect IQ](https://developer.garmin.com/connect-iq/)) and the **[WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme)** you install in your own Home
-Assistant. A personal, non-commercial hobby project by a private individual (Grzegorz Krzyżak), not
-affiliated with or endorsed by the [Open Home Foundation](https://www.openhomefoundation.org/), Home Assistant or Garmin.
+Assistant. I, Grzegorz Krzyżak, make it as a personal, non-commercial hobby project, as a private
+individual - not affiliated with or endorsed by the [Open Home Foundation](https://www.openhomefoundation.org/), Home Assistant or Garmin.
 
 ## In short
 
 - Your voice, what you say and the replies go **only to your own Home Assistant**, at the address you
-  set. The developer runs no server and receives nothing from the app.
-- No analytics, no advertising, no tracking, no accounts with the developer.
+  set. I run no server, and **neither I nor any other person or company** receives your data from
+  WristTalk.
+- No analytics, no advertising, no tracking, no accounts.
 - What happens to your voice in Home Assistant depends on the [Assist](https://www.home-assistant.io/voice_control/) pipeline **you** chose (for
   example the speech-to-text, conversation agent and text-to-speech services you set up there).
 
@@ -54,12 +55,13 @@ under their own privacy policies. Those are your choices and are outside this ap
 
 ## Sharing
 
-The developer does not receive, sell or share any of your data. Nothing is sent anywhere except to
-the address you set.
+Neither I nor any other person or company receives, sells or shares your data through WristTalk.
+Nothing is sent anywhere except to the address you set - through the Garmin Connect app on your
+phone, and from there on to the services you chose in your own Home Assistant.
 
 ## Children
 
-WristTalk is not directed at children and collects nothing about anyone for the developer.
+WristTalk is not directed at children and collects nothing about anyone for me or anyone else.
 
 ## Changes and contact
 
