@@ -29,7 +29,7 @@ WristTalk is made by me, Grzegorz Krzyżak.
 | Your voice while you give a command (Ogg/Opus audio) | your command | your Home Assistant | the watch keeps it only for the command in progress |
 | The recognised command and the reply (text and audio) | to show and play the reply | received from your Home Assistant | on screen until the app closes; not stored |
 | Pairing key | to prove the watch to your Home Assistant | stored on the watch; Home Assistant stores only a hash of it | until you pair again or remove the app |
-| House address and the app's settings | to reach your Home Assistant, your preferences | stored on the watch and in Garmin Connect (app settings) | until you change them or remove the app |
+| House address and the app's settings | to reach your Home Assistant, your preferences | stored on the watch; edited in Garmin Connect, which passes them to the watch | until you change them or remove the app |
 | A watch identifier, the watch model and the app version | to tell your watches apart when pairing | sent to your Home Assistant once, at pairing | kept in Home Assistant with the watch |
 
 The watch identifier is the one Connect IQ gives each app on each watch; it is not your Garmin
@@ -44,7 +44,8 @@ the command ends, shows a recording dot meanwhile, and does not listen in the ba
 Connect IQ apps reach the internet through the **[Garmin Connect](https://connect.garmin.com/) app on your phone**, over
 Bluetooth; from the phone the request goes over HTTPS to the address you set (for example your [Home
 Assistant Cloud](https://www.nabucasa.com/) address). [Garmin's privacy policy](https://www.garmin.com/privacy/) covers the Garmin Connect app and the
-watch.
+watch - also the app's settings (among them your house address), which you edit in Garmin Connect
+and Garmin passes to the watch.
 
 ## In your Home Assistant
 
@@ -55,11 +56,24 @@ own settings - for example its logs, the conversation history of your agent, or 
 you turned them on - and the speech and AI services in your pipeline process your voice and text
 under their own privacy policies. Those are your choices and are outside this app.
 
+## Your rights
+
+Because your data from WristTalk never reaches me, I hold nothing about you to give you access to,
+correct or delete. Everything is in your own Home Assistant and with the providers you chose there -
+ask them, or remove it there yourself.
+
 ## Sharing
 
 Neither I nor any other person or company receives, sells or shares your data through WristTalk.
 Nothing is sent anywhere except to the address you set - through the Garmin Connect app on your
 phone, and from there on to the services you chose in your own Home Assistant.
+
+## This website
+
+This website is hosted on GitHub Pages; GitHub may log visitors' IP addresses - see the
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+The pages load nothing from other sites (no fonts, scripts or images from elsewhere) and use no
+cookies.
 
 ## Children
 
