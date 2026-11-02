@@ -6,17 +6,17 @@ permalink: /privacy/
 
 *Effective date: 2026-11-02.*
 
-WristTalk is a voice assistant for Home Assistant on a Garmin watch. It has two parts: the
-**WristTalk watch app** (Connect IQ) and the **WristTalk integration** you install in your own Home
+WristTalk is a voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch. It has two parts: the
+**WristTalk watch app** ([Connect IQ](https://developer.garmin.com/connect-iq/)) and the **[WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme)** you install in your own Home
 Assistant. A personal, non-commercial hobby project by a private individual (Grzegorz Krzyżak), not
-affiliated with or endorsed by the Open Home Foundation, Home Assistant or Garmin.
+affiliated with or endorsed by the [Open Home Foundation](https://www.openhomefoundation.org/), Home Assistant or Garmin.
 
 ## In short
 
 - Your voice, what you say and the replies go **only to your own Home Assistant**, at the address you
   set. The developer runs no server and receives nothing from the app.
 - No analytics, no advertising, no tracking, no accounts with the developer.
-- What happens to your voice in Home Assistant depends on the Assist pipeline **you** chose (for
+- What happens to your voice in Home Assistant depends on the [Assist](https://www.home-assistant.io/voice_control/) pipeline **you** chose (for
   example the speech-to-text, conversation agent and text-to-speech services you set up there).
 
 ## What the watch app handles
@@ -38,14 +38,14 @@ the command ends, shows a recording dot meanwhile, and does not listen in the ba
 
 ## How the data travels
 
-Connect IQ apps reach the internet through the **Garmin Connect app on your phone**, over
-Bluetooth; from the phone the request goes over HTTPS to the address you set (for example your Home
-Assistant Cloud address). [Garmin's privacy policy](https://www.garmin.com/privacy/) covers the Garmin Connect app and the
+Connect IQ apps reach the internet through the **[Garmin Connect](https://connect.garmin.com/) app on your phone**, over
+Bluetooth; from the phone the request goes over HTTPS to the address you set (for example your [Home
+Assistant Cloud](https://www.nabucasa.com/) address). [Garmin's privacy policy](https://www.garmin.com/privacy/) covers the Garmin Connect app and the
 watch.
 
 ## In your Home Assistant
 
-The WristTalk integration runs in your Home Assistant and passes your command to the Assist pipeline
+The [WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) runs in your Home Assistant and passes your command to the Assist pipeline
 you chose for the watch. WristTalk itself keeps no recordings after a command: the audio and the
 reply exist only while the command runs. Your Home Assistant may still keep data according to your
 own settings - for example its logs, the conversation history of your agent, or debug recordings if
