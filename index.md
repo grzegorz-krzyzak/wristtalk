@@ -21,10 +21,10 @@ permalink: /
 
 ## Get it
 
-| | |
+| What you need | What to do |
 |---|---|
-| **Home Assistant integration** | [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) - install it first, with [HACS](https://hacs.xyz/) |
-| **Watch app** | [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) - Connect IQ store: coming |
+| **Home Assistant integration** - [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) | Install it first, with [HACS](https://hacs.xyz/) |
+| **Watch app** - [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) | From the Connect IQ store - coming |
 
 ## Privacy
 
