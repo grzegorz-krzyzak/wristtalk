@@ -40,8 +40,8 @@ the command ends, shows a recording dot meanwhile, and does not listen in the ba
 
 Connect IQ apps reach the internet through the **Garmin Connect app on your phone**, over
 Bluetooth; from the phone the request goes over HTTPS to the address you set (for example your Home
-Assistant Cloud address). Garmin's privacy policy covers the Garmin Connect app and the watch:
-https://www.garmin.com/privacy/
+Assistant Cloud address). [Garmin's privacy policy](https://www.garmin.com/privacy/) covers the Garmin Connect app and the
+watch.
 
 ## In your Home Assistant
 
@@ -64,4 +64,4 @@ WristTalk is not directed at children and collects nothing about anyone for the 
 ## Changes and contact
 
 Changes to this policy will be published at this address with a new date. Questions: open an issue
-at https://github.com/grzegorz-krzyzak/ha-wristtalk/issues
+in [ha-wristtalk on GitHub](https://github.com/grzegorz-krzyzak/ha-wristtalk/issues).
