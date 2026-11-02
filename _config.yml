@@ -1,3 +1,6 @@
 title: WristTalk
 description: Voice assistant for Home Assistant on a Garmin watch
 theme: minima
+# The header links only to the policy; the title links home
+header_pages:
+  - privacy.md
