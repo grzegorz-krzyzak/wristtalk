@@ -6,9 +6,12 @@ permalink: /privacy/
 
 *Effective date: 2026-11-02.*
 
-WristTalk is a voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch. It has two parts: the
-**[WristTalk watch app](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme)** ([Connect IQ](https://developer.garmin.com/connect-iq/)) and the **[WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme)** you install in your own Home
-Assistant. I, Grzegorz Krzyżak, make it as a personal, non-commercial hobby project, as a private
+WristTalk is a voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch. It has two parts:
+
+- the **[WristTalk watch app](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme)** ([Connect IQ](https://developer.garmin.com/connect-iq/)), on your Garmin watch;
+- the **[WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme)**, which you install in your own Home Assistant.
+
+I, Grzegorz Krzyżak, make it as a personal, non-commercial hobby project, as a private
 individual - not affiliated with or endorsed by the [Open Home Foundation](https://www.openhomefoundation.org/), Home Assistant or Garmin.
 
 ## In short
