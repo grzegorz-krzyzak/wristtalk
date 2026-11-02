@@ -83,6 +83,7 @@ WristTalk is not directed at children and collects nothing about anyone for me o
 
 Changes to this policy will be published at this address with a new date.
 
-Privacy questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com). Other questions and
-bug reports: [ha-wristtalk issues on GitHub](https://github.com/grzegorz-krzyzak/ha-wristtalk/issues)
+Privacy questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com).
+
+Other questions and bug reports: [ha-wristtalk issues on GitHub](https://github.com/grzegorz-krzyzak/ha-wristtalk/issues)
 (public).
