@@ -4,14 +4,28 @@ title: WristTalk
 permalink: /
 ---
 
-A voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch: press START, say a command, see it and the
-reply as chat bubbles and hear the reply from the watch speaker.
+**Talk to Home Assistant from your Garmin watch.**
 
-- **Home Assistant integration:** [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk) -
-  install it first ([HACS](https://hacs.xyz/), custom repository).
-- **Watch app:** [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) - for Garmin watches with a microphone and a speaker for apps ([Connect IQ](https://developer.garmin.com/connect-iq/) API 6.0 or
-  newer); the first version supports the fēnix 8 Solar 51 mm. Not in the [Connect IQ store](https://apps.garmin.com/) yet.
-- [Privacy policy](privacy/)
+## How it works
 
-A personal, non-commercial hobby project by a private individual. Not affiliated with or endorsed by
-the [Open Home Foundation](https://www.openhomefoundation.org/), Home Assistant or Garmin.
+1. Press START and say a command.
+2. Your Home Assistant understands it and acts.
+3. The watch shows the reply and speaks it.
+
+## What you need
+
+- Home Assistant with Assist, reachable over HTTPS (for example with Home Assistant Cloud).
+- A Garmin watch with a microphone and a speaker - the first version supports the fēnix 8 Solar
+  51 mm.
+- Your phone with Garmin Connect nearby: the watch talks to Home Assistant through it.
+
+## Get it
+
+| | |
+|---|---|
+| **Home Assistant integration** | [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) - install it first, with [HACS](https://hacs.xyz/) |
+| **Watch app** | [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) - Connect IQ store: coming |
+
+## Privacy
+
+Your voice goes only to your own Home Assistant. Read the [privacy policy](privacy/).
