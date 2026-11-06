@@ -40,6 +40,10 @@ the reply in a chat view - long conversations scroll with a finger or the button
 | **Home Assistant integration** - [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) | Install it first, with [HACS](https://hacs.xyz/) |
 | **Watch app** - [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) | From the Connect IQ store - coming |
 
+## Help
+
+How to set it up, what the buttons and the settings do: [Help](help/).
+
 ## Privacy
 
 Your voice goes only to your own Home Assistant. Read the [privacy policy](privacy/).
