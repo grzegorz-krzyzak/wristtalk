@@ -60,7 +60,7 @@ Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami.
 | Na zegarku | Co zrobić |
 |---|---|
 | **Brak połączenia z telefonem** | Włącz Bluetooth i otwórz Garmin Connect. |
-| **Adres domu musi zaczynać się od https://** | Użyj adresu HTTPS.<br>Zwykłe http:// nie działa, nawet w domu. |
+| **Adres domu musi zaczynać się od `https://`** | Użyj adresu HTTPS.<br>Zwykłe `http://` nie działa, nawet w domu. |
 | **Zaktualizuj WristTalk na zegarku** | Zaktualizuj aplikację na zegarku. |
 | **Zaktualizuj integrację WristTalk w Home Assistant** | Zaktualizuj integrację w HACS. |
 | **Nic nie usłyszałem** | Naciśnij START i powiedz jeszcze raz. |

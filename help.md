@@ -67,7 +67,7 @@ Each watch has its own device card with three settings.
 | On the watch | What to do |
 |---|---|
 | **No connection to the phone** | Turn on Bluetooth and open Garmin Connect. |
-| **The house address must start with https://** | Use an HTTPS address.<br>Plain http:// does not work, not even at home. |
+| **The house address must start with `https://`** | Use an HTTPS address.<br>Plain `http://` does not work, not even at home. |
 | **Update WristTalk on the watch** | Update the watch app. |
 | **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
 | **I did not hear anything** | Press START and say it again. |
