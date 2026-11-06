@@ -6,6 +6,8 @@ permalink: /
 
 **Talk to Home Assistant from your Garmin watch.**
 
+**[How to set it up and use it →](help/)** · [Pomoc po polsku](pl/help/)
+
 ## How it works
 
 1. Press START and say a command.
