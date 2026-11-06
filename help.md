@@ -13,51 +13,64 @@ permalink: /help/
 
 **English** · [Polski](../pl/help/)
 
-## Setting up
+[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Something wrong?](#something-wrong)
 
-1. **In Home Assistant:** install the [WristTalk integration](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) through HACS and add it. Pick the default Assist pipeline for new watches and the **address for the watches** - an `https://` address with a trusted certificate (for example Home Assistant Cloud). The integration's options show it in full, as a link: on a phone, tap it and copy it from the browser's address bar.
-2. **In Garmin Connect** on your phone: the WristTalk app's settings → **House address** → paste the address → Save.
-3. **In Home Assistant:** the WristTalk integration → **Add watch**. Pairing stays open for 5 minutes.
-4. **On the watch:** open WristTalk. It shows a code - compare it with the one in Home Assistant and confirm.
+## Set up
 
-The watch talks to Home Assistant through your phone (Garmin Connect must be running and the phone nearby) - also at home; the watch's Wi-Fi is not used.
+You need Home Assistant reachable over **HTTPS** (for example Home Assistant Cloud) and your phone with **Garmin Connect** near the watch.
 
-## On the watch
+1. **Install the integration.** In Home Assistant, add [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) through HACS.
+2. **Copy the address.** The integration's options show the address for the watches as a link. On a phone: tap it and copy it from the browser.
+3. **Paste it in Garmin Connect.** WristTalk → Settings → **House address** → Save.
+4. **Pair.** In Home Assistant: WristTalk → **Add watch**. Open WristTalk on the watch and confirm the code it shows.
 
-| Button | What it does |
+The watch always talks to Home Assistant through your phone - also at home.
+
+## Use
+
+| | |
 |---|---|
-| **START** | Speak a command; START again sends it at once (otherwise the watch notices you stopped speaking). During a reply: stops it and listens again. |
-| **BACK** | Cancels the command in progress; on the idle screen closes the app. |
+| **START** | Speak a command. Press again to send it at once. |
+| **BACK** | Cancel a command. On the idle screen: close the app. |
 | **UP / DOWN** | Scroll the conversation. |
-| **Hold UP** | Text only on / off (the speaker icon at the top shows it). |
-| **Touch** | Drag to scroll. A tap only wakes the screen - commands start with START. |
+| **Hold UP** | Text only on / off. |
+| **Touch** | Drag to scroll. A tap only wakes the screen. |
 
-## Settings (Garmin Connect)
+## Settings
 
-- **House address** - where the watch finds your Home Assistant: the address for the watches from the WristTalk integration, starting with `https://`.
-- **Reconnect to the house** - switch on and save to pair the watch again from the start (a new house, a new address, or the watch was removed in Home Assistant). It switches itself off after pairing.
-- **Listen as soon as it opens** - on: opening the app starts listening at once. Off: the app waits for START.
-- **After a reply** - *Wait for START* (default), or *Keep listening* for a back-and-forth conversation. With *Keep listening*, a conversation or a radio nearby can be taken for a command.
-- **Reply** - *Voice and text*, or *Text only* (no sound; also hold UP on the watch).
-- **Reply volume** - Quiet, Medium, Loud.
-- **Text size** - Small or Large text in the conversation.
-- **Vibration** - *Full* (also when listening starts and the command is sent), *Minimal* (the reply and errors, default), *Off*.
-- **Close when idle** - after this long without use the app asks "Stay?" for 10 seconds (START: stay, BACK: close), then closes.
+In Garmin Connect: WristTalk → Settings.
 
-## Each watch in Home Assistant
+| Setting | What it does |
+|---|---|
+| **House address** | Where the watch finds your Home Assistant. |
+| **Reconnect to the house** | Pairs the watch again from the start. Switches itself off afterwards. |
+| **Listen as soon as it opens** | Opening the app starts listening at once. |
+| **After a reply** | *Wait for START* or *Keep listening* for a conversation. Keep listening can take a nearby voice or radio for a command. |
+| **Reply** | *Voice and text* or *Text only*. |
+| **Reply volume** | Quiet, Medium or Loud. |
+| **Text size** | Small or Large. |
+| **Vibration** | *Full*, *Minimal* (reply and errors) or *Off*. |
+| **Close when idle** | After this time the app asks *Stay?*, then closes. |
 
-The watch's device card in Home Assistant has three settings:
+## In Home Assistant
 
-- **Assistant** - the Assist pipeline this watch uses (speech-to-text, agent, voice).
-- **Finished speaking detection** - how soon the command ends after you stop speaking. *Default* fits most; *Aggressive* can cut a command at a pause.
-- **Reply voice quality** - *Fast* (default, the smallest file, arrives soonest through the phone), *Balanced*, *Best* (worth it with headphones).
+Each watch has its own device card with three settings.
 
-## When something is wrong
+| Setting | What it does |
+|---|---|
+| **Assistant** | The Assist pipeline the watch uses. |
+| **Finished speaking detection** | How soon a command ends after you stop. *Default* suits most. |
+| **Reply voice quality** | *Fast* (default) arrives soonest. *Best* sounds better with headphones. |
 
-- **"No connection to the phone"** - Bluetooth is off or Garmin Connect is not running on the phone.
-- **"The house address must start with https://"** - Home Assistant must be reachable over HTTPS with a trusted certificate; plain `http://` does not work through the phone, also at home.
-- **"Update WristTalk on the watch" / "Update the WristTalk integration in Home Assistant"** - the watch app and the integration speak different protocol versions: update the one named.
-- **"I did not hear anything"** - say the command again after START.
-- **The watch asks for pairing again** - it was removed in Home Assistant, or Reconnect was switched on: add it again with **Add watch**.
+## Something wrong?
+
+| On the watch | What to do |
+|---|---|
+| **No connection to the phone** | Turn on Bluetooth and open Garmin Connect. |
+| **The house address must start with https://** | Use an HTTPS address. Plain http:// does not work, not even at home. |
+| **Update WristTalk on the watch** | Update the watch app. |
+| **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
+| **I did not hear anything** | Press START and say it again. |
+| **Pairing again** | The watch was removed in Home Assistant, or Reconnect was on. Use **Add watch**. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com) · [Privacy policy](../privacy/)

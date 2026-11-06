@@ -6,51 +6,64 @@ permalink: /pl/help/
 
 [English](../../help/?lang=en) · **Polski**
 
-## Pierwsze uruchomienie
+[Pierwsze kroki](#pierwsze-kroki) · [Używanie](#używanie) · [Ustawienia](#ustawienia) · [W Home Assistant](#w-home-assistant) · [Coś nie działa?](#coś-nie-działa)
 
-1. **W Home Assistant:** zainstaluj [integrację WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) przez HACS i dodaj ją. Wybierz domyślny potok Assista dla nowych zegarków i **adres dla zegarków** - adres `https://` z zaufanym certyfikatem (np. Home Assistant Cloud). Opcje integracji pokazują go w całości jako link: na telefonie stuknij go i skopiuj z paska adresu przeglądarki.
-2. **W Garmin Connect** na telefonie: ustawienia aplikacji WristTalk → **Adres domu** → wklej adres → Zapisz.
-3. **W Home Assistant:** integracja WristTalk → **Dodaj zegarek**. Parowanie jest otwarte przez 5 minut.
-4. **Na zegarku:** otwórz WristTalk. Pokaże kod - porównaj go z kodem w Home Assistant i potwierdź.
+## Pierwsze kroki
 
-Zegarek łączy się z Home Assistant przez telefon (Garmin Connect musi działać, a telefon być w pobliżu) - także w domu; Wi-Fi zegarka nie jest używane.
+Potrzebujesz Home Assistant dostępnego przez **HTTPS** (np. Home Assistant Cloud) i telefonu z **Garmin Connect** w pobliżu zegarka.
 
-## Na zegarku
+1. **Zainstaluj integrację.** W Home Assistant dodaj [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) przez HACS.
+2. **Skopiuj adres.** Opcje integracji pokazują adres dla zegarków jako link. Na telefonie: stuknij go i skopiuj z przeglądarki.
+3. **Wklej go w Garmin Connect.** WristTalk → Ustawienia → **Adres domu** → Zapisz.
+4. **Sparuj.** W Home Assistant: WristTalk → **Dodaj zegarek**. Otwórz WristTalk na zegarku i potwierdź pokazany kod.
 
-| Przycisk | Co robi |
+Zegarek zawsze łączy się z Home Assistant przez telefon - także w domu.
+
+## Używanie
+
+| | |
 |---|---|
-| **START** | Powiedz komendę; ponowny START wysyła ją od razu (inaczej zegarek sam zauważy, że skończyłeś mówić). W trakcie odpowiedzi: przerywa ją i słucha od nowa. |
-| **BACK** | Przerywa komendę w toku; na ekranie bezczynności zamyka aplikację. |
-| **UP / DOWN** | Przewijanie rozmowy. |
-| **Przytrzymaj UP** | Tylko tekst wł. / wył. (pokazuje to ikona głośnika u góry). |
-| **Dotyk** | Przeciągnij, żeby przewinąć. Stuknięcie tylko budzi ekran - komendy zaczyna START. |
+| **START** | Powiedz komendę. Naciśnij ponownie, żeby wysłać ją od razu. |
+| **BACK** | Przerwij komendę. Na ekranie bezczynności: zamknij aplikację. |
+| **UP / DOWN** | Przewijaj rozmowę. |
+| **Przytrzymaj UP** | Tylko tekst wł. / wył. |
+| **Dotyk** | Przeciągnij, żeby przewinąć. Stuknięcie tylko budzi ekran. |
 
-## Ustawienia (Garmin Connect)
+## Ustawienia
 
-- **Adres domu** - gdzie zegarek znajdzie twój Home Assistant: adres dla zegarków z integracji WristTalk, zaczynający się od `https://`.
-- **Połącz ponownie z domem** - włącz i zapisz, żeby sparować zegarek od nowa (nowy dom, nowy adres albo zegarek usunięty w Home Assistant). Po parowaniu wyłącza się sam.
-- **Słuchaj od razu po otwarciu** - włączone: otwarcie aplikacji od razu zaczyna słuchanie. Wyłączone: aplikacja czeka na START.
-- **Po odpowiedzi** - *Czekaj na START* (domyślnie) albo *Słuchaj dalej* do rozmowy w obie strony. Przy *Słuchaj dalej* rozmowa albo radio w pobliżu mogą zostać wzięte za komendę.
-- **Odpowiedź** - *Głos i tekst* albo *Tylko tekst* (bez dźwięku; także przytrzymanie UP na zegarku).
-- **Głośność odpowiedzi** - Cicho, Średnio, Głośno.
-- **Wielkość tekstu** - Mały albo Duży tekst w rozmowie.
-- **Wibracje** - *Pełne* (także na start słuchania i wysłanie komendy), *Minimalne* (odpowiedź i błędy, domyślnie), *Wyłączone*.
-- **Zamknij po bezczynności** - po tym czasie bez używania aplikacja pyta „Zostać?” przez 10 sekund (START: zostań, BACK: zamknij), potem się zamyka.
+W Garmin Connect: WristTalk → Ustawienia.
 
-## Każdy zegarek w Home Assistant
+| Ustawienie | Co robi |
+|---|---|
+| **Adres domu** | Gdzie zegarek znajdzie twój Home Assistant. |
+| **Połącz ponownie z domem** | Paruje zegarek od nowa. Potem wyłącza się sam. |
+| **Słuchaj od razu po otwarciu** | Otwarcie aplikacji od razu zaczyna słuchanie. |
+| **Po odpowiedzi** | *Czekaj na START* albo *Słuchaj dalej* do rozmowy. Słuchanie dalej może wziąć głos lub radio w pobliżu za komendę. |
+| **Odpowiedź** | *Głos i tekst* albo *Tylko tekst*. |
+| **Głośność odpowiedzi** | Cicho, Średnio albo Głośno. |
+| **Wielkość tekstu** | Mała albo Duża. |
+| **Wibracje** | *Pełne*, *Minimalne* (odpowiedź i błędy) albo *Wyłączone*. |
+| **Zamknij po bezczynności** | Po tym czasie aplikacja pyta *Zostać?*, potem się zamyka. |
 
-Karta urządzenia zegarka w Home Assistant ma trzy ustawienia:
+## W Home Assistant
 
-- **Asystent** - potok Assista tego zegarka (rozpoznawanie mowy, agent, głos).
-- **Wykrywanie końca mowy** - jak szybko komenda się kończy, gdy przestaniesz mówić. *Domyślne* pasuje najczęściej; *Agresywne* potrafi uciąć komendę na pauzie.
-- **Jakość głosu odpowiedzi** - *Szybka* (domyślna, najmniejszy plik, najszybciej przez telefon), *Zrównoważona*, *Najlepsza* (warto przy słuchawkach).
+Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami.
 
-## Gdy coś nie działa
+| Ustawienie | Co robi |
+|---|---|
+| **Asystent** | Potok Assista, którego używa zegarek. |
+| **Wykrywanie końca mowy** | Jak szybko komenda się kończy, gdy przestaniesz mówić. *Domyślne* pasuje najczęściej. |
+| **Jakość głosu odpowiedzi** | *Szybka* (domyślna) dociera najszybciej. *Najlepsza* brzmi lepiej w słuchawkach. |
 
-- **„Brak połączenia z telefonem”** - Bluetooth jest wyłączony albo Garmin Connect nie działa na telefonie.
-- **„Adres domu musi zaczynać się od https://”** - Home Assistant musi być dostępny przez HTTPS z zaufanym certyfikatem; zwykłe `http://` przez telefon nie działa, także w domu.
-- **„Zaktualizuj WristTalk na zegarku” / „Zaktualizuj integrację WristTalk w Home Assistant”** - aplikacja i integracja mówią różnymi wersjami protokołu: zaktualizuj tę wskazaną.
-- **„Nic nie usłyszałem”** - powiedz komendę jeszcze raz po START.
-- **Zegarek znowu prosi o parowanie** - został usunięty w Home Assistant albo włączono „Połącz ponownie”: dodaj go ponownie przez **Dodaj zegarek**.
+## Coś nie działa?
+
+| Na zegarku | Co zrobić |
+|---|---|
+| **Brak połączenia z telefonem** | Włącz Bluetooth i otwórz Garmin Connect. |
+| **Adres domu musi zaczynać się od https://** | Użyj adresu HTTPS. Zwykłe http:// nie działa, nawet w domu. |
+| **Zaktualizuj WristTalk na zegarku** | Zaktualizuj aplikację na zegarku. |
+| **Zaktualizuj integrację WristTalk w Home Assistant** | Zaktualizuj integrację w HACS. |
+| **Nic nie usłyszałem** | Naciśnij START i powiedz jeszcze raz. |
+| **Ponowne parowanie** | Zegarek usunięto w Home Assistant albo włączono „Połącz ponownie”. Użyj **Dodaj zegarek**. |
 
 Pytania: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com) · [Polityka prywatności (po angielsku)](../../privacy/)
