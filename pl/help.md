@@ -15,7 +15,7 @@ Potrzebujesz Home Assistant dostępnego przez **HTTPS** (np. Home Assistant Clou
 1. **Zainstaluj integrację.** W Home Assistant dodaj [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) przez HACS.
 2. **Skopiuj adres.** Opcje integracji pokazują adres dla zegarków jako link - skopiuj go.
 3. **Wklej go w aplikacji Connect IQ.** WristTalk → Ustawienia → **Adres domu** → Zapisz.
-4. **Sparuj.** W Home Assistant: WristTalk → **Dodaj zegarek**. Otwórz WristTalk na zegarku i potwierdź pokazany kod.
+4. **Sparuj.** W Home Assistant: WristTalk → **+ Dodaj zegarek**. Otwórz WristTalk na zegarku i potwierdź pokazany kod.
 
 Zegarek zawsze łączy się z Home Assistant przez telefon - także w domu.
 
@@ -64,6 +64,6 @@ Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami.
 | **Zaktualizuj WristTalk na zegarku** | Zaktualizuj aplikację na zegarku. |
 | **Zaktualizuj integrację WristTalk w Home Assistant** | Zaktualizuj integrację w HACS. |
 | **Nic nie usłyszałem** | Naciśnij START i powiedz jeszcze raz. |
-| **Ponowne parowanie** | Zegarek usunięto w Home Assistant albo włączono „Połącz ponownie”. Użyj **Dodaj zegarek** w integracji WristTalk w Home Assistant. |
+| **Ponowne parowanie** | Zegarek usunięto w Home Assistant albo włączono „Połącz ponownie”. Kliknij **+ Dodaj zegarek** w integracji WristTalk w Home Assistant. |
 
 Pytania: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)

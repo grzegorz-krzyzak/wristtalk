@@ -22,7 +22,7 @@ You need Home Assistant reachable over **HTTPS** (for example Home Assistant Clo
 1. **Install the integration.** In Home Assistant, add [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) through HACS.
 2. **Copy the address.** The integration's options show the address for the watches as a link - copy it.
 3. **Paste it in the Connect IQ app.** WristTalk → Settings → **House address** → Save.
-4. **Pair.** In Home Assistant: WristTalk → **Add watch**. Open WristTalk on the watch and confirm the code it shows.
+4. **Pair.** In Home Assistant: WristTalk → **+ Add watch**. Open WristTalk on the watch and confirm the code it shows.
 
 The watch always talks to Home Assistant through your phone - also at home.
 
@@ -71,6 +71,6 @@ Each watch has its own device card with three settings.
 | **Update WristTalk on the watch** | Update the watch app. |
 | **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
 | **I did not hear anything** | Press START and say it again. |
-| **Pairing again** | The watch was removed in Home Assistant, or Reconnect was on. Use **Add watch** in the WristTalk integration in Home Assistant. |
+| **Pairing again** | The watch was removed in Home Assistant, or Reconnect was on. Click **+ Add watch** in the WristTalk integration in Home Assistant. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
