@@ -45,7 +45,7 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 | **House address** | Where the watch finds your Home Assistant. |
 | **Reconnect to the house** | Pairs the watch again from the start. After pairing this option switches itself off. |
 | **Listen as soon as it opens** | Opening the app starts listening at once. |
-| **After a reply** | *Wait for START* or *Keep listening* for a conversation. Keep listening can take a nearby voice or radio for a command. |
+| **After a reply** | *Wait for START* or *Keep listening* for a conversation. With *Keep listening*, the watch may take a conversation or a radio nearby for a command. |
 | **Reply** | *Voice and text* or *Text only*. |
 | **Reply volume** | Quiet, Medium or Loud. |
 | **Text size** | Small or Large. |

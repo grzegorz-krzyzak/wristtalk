@@ -38,7 +38,7 @@ W aplikacji Connect IQ na telefonie: WristTalk → Ustawienia.
 | **Adres domu** | Gdzie zegarek znajdzie twój Home Assistant. |
 | **Połącz ponownie z domem** | Paruje zegarek od nowa. Po parowaniu ta opcja sama się wyłącza. |
 | **Słuchaj od razu po otwarciu** | Otwarcie aplikacji od razu zaczyna słuchanie. |
-| **Po odpowiedzi** | *Czekaj na START* albo *Słuchaj dalej* do rozmowy. Słuchanie dalej może wziąć głos lub radio w pobliżu za komendę. |
+| **Po odpowiedzi** | *Czekaj na START* albo *Słuchaj dalej* do rozmowy. Przy *Słuchaj dalej* zegarek może uznać rozmowę lub radio w pobliżu za komendę. |
 | **Odpowiedź** | *Głos i tekst* albo *Tylko tekst*. |
 | **Głośność odpowiedzi** | Cicho, Średnio albo Głośno. |
 | **Wielkość tekstu** | Mała albo Duża. |
