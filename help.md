@@ -4,15 +4,6 @@ title: Help
 permalink: /help/
 ---
 
-<script>
-  // Polish phones get the Polish page, unless the reader chose English (?lang=en)
-  if (!/[?&]lang=en/.test(location.search) && (navigator.language || "").toLowerCase().startsWith("pl")) {
-    location.replace("../pl/help/" + location.hash);
-  }
-</script>
-
-**English** · [Polski](../pl/help/)
-
 [Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Something wrong?](#something-wrong)
 
 ## Set up
