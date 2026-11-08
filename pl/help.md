@@ -15,7 +15,7 @@ Potrzebujesz Home Assistant dostępnego przez **HTTPS** (np. Home Assistant Clou
 1. **Zainstaluj integrację.** W Home Assistant dodaj [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) przez HACS.
 2. **Skopiuj adres.** Opcje integracji pokazują adres dla zegarków jako link - skopiuj go.
 3. **Wklej go w aplikacji Connect IQ.** WristTalk → Ustawienia → **Adres domu** → Zapisz.
-4. **Sparuj.** W Home Assistant: WristTalk → **+ Dodaj zegarek**. Otwórz WristTalk na zegarku i potwierdź pokazany kod.
+4. **Sparuj.** W Home Assistant: WristTalk → **+ Dodaj zegarek**. Otwórz WristTalk na zegarku i wpisz pokazany kod w Home Assistant. Parowanie jest otwarte przez 3 minuty.
 
 Zegarek zawsze łączy się z Home Assistant przez telefon - także w domu.
 
@@ -26,7 +26,7 @@ Zegarek zawsze łączy się z Home Assistant przez telefon - także w domu.
 | **START** | Powiedz komendę. Naciśnij ponownie, żeby wysłać ją od razu. |
 | **BACK** | Przerwij komendę. Na ekranie bezczynności: zamknij aplikację. |
 | **UP / DOWN** | Przewijaj rozmowę. |
-| **Przytrzymaj UP** | Tylko tekst wł. / wył. |
+| **Przytrzymaj UP** | Menu: *Tylko tekst* wł. / wył., *Sparuj ponownie*, wersja aplikacji. |
 | **Dotyk** | Przeciągnij, żeby przewinąć. Stuknięcie tylko budzi ekran. |
 
 ## Ustawienia
@@ -36,7 +36,6 @@ W aplikacji Connect IQ na telefonie: WristTalk → Ustawienia.
 | Ustawienie | Co robi |
 |---|---|
 | **Adres domu** | Gdzie zegarek znajdzie twój Home Assistant. |
-| **Połącz ponownie z domem** | Paruje zegarek od nowa. Po parowaniu ta opcja sama się wyłącza. |
 | **Słuchaj od razu po otwarciu** | Otwarcie aplikacji od razu zaczyna słuchanie. |
 | **Po odpowiedzi** | *Czekaj na START* albo *Słuchaj dalej* do rozmowy. Przy *Słuchaj dalej* zegarek może uznać rozmowę lub radio w pobliżu za komendę. |
 | **Odpowiedź** | *Głos i tekst* albo *Tylko tekst*. |
@@ -47,13 +46,16 @@ W aplikacji Connect IQ na telefonie: WristTalk → Ustawienia.
 
 ## W Home Assistant
 
-Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami.
+Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami i statusem.
 
 | Ustawienie | Co robi |
 |---|---|
 | **Asystent** | Potok Assista, którego używa zegarek. |
 | **Wykrywanie końca mowy** | Jak szybko komenda się kończy, gdy przestaniesz mówić. *Domyślne* pasuje najczęściej. |
 | **Jakość głosu odpowiedzi** | *Szybka* (domyślna) dociera najszybciej. *Najlepsza* brzmi lepiej w słuchawkach. |
+| **Status** | *Sparowany* albo *Wymaga ponownego sparowania*. |
+
+**Sparuj ponownie:** ikona ⚙ przy zegarku w karcie integracji WristTalk. Zegarek i jego ustawienia zostają, zmienia się tylko klucz.
 
 ## Coś nie działa?
 
@@ -64,6 +66,6 @@ Każdy zegarek ma własną kartę urządzenia z trzema ustawieniami.
 | **Zaktualizuj WristTalk na zegarku** | Zaktualizuj aplikację na zegarku. |
 | **Zaktualizuj integrację WristTalk w Home Assistant** | Zaktualizuj integrację w HACS. |
 | **Nic nie usłyszałem** | Naciśnij START i powiedz jeszcze raz. |
-| **Ponowne parowanie** | Zegarek usunięto w Home Assistant albo włączono „Połącz ponownie”. Kliknij **+ Dodaj zegarek** w integracji WristTalk w Home Assistant. |
+| **Parowanie** z kodem | Po *Sparuj ponownie*: w Home Assistant ⚙ przy zegarku albo Ustawienia → Naprawy → **Napraw**. Zegarek usunięto w Home Assistant: **+ Dodaj zegarek**. Potem wpisz kod z zegarka. Jeśli kod nie zostanie wpisany w ciągu 3 minut, zegarek pokaże nowy. |
 
 Pytania: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)

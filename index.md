@@ -15,7 +15,7 @@ permalink: /
 ## On the watch
 
 <p>
-<img src="assets/screenshots/1-pairing.png" width="220" alt="Pairing: the code to compare in Home Assistant">
+<img src="assets/screenshots/1-pairing.png" width="220" alt="Pairing: the code to type in Home Assistant">
 <img src="assets/screenshots/2-start.png" width="220" alt="Press START to speak">
 <img src="assets/screenshots/3-listening.png" width="220" alt="Listening to a new command">
 <img src="assets/screenshots/4-thinking.png" width="220" alt="The command sent, the assistant thinking">
@@ -23,7 +23,7 @@ permalink: /
 <img src="assets/screenshots/6-stay.png" width="220" alt="Before closing when idle: Stay?">
 </p>
 
-Pair the watch once with a code you confirm in Home Assistant. Press START, say a command, and read
+Pair the watch once with a code you type in Home Assistant. Press START, say a command, and read
 the reply in a chat view - long conversations scroll with a finger or the buttons.
 
 ## What you need

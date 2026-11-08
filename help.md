@@ -22,7 +22,7 @@ You need Home Assistant reachable over **HTTPS** (for example Home Assistant Clo
 1. **Install the integration.** In Home Assistant, add [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) through HACS.
 2. **Copy the address.** The integration's options show the address for the watches as a link - copy it.
 3. **Paste it in the Connect IQ app.** WristTalk → Settings → **House address** → Save.
-4. **Pair.** In Home Assistant: WristTalk → **+ Add watch**. Open WristTalk on the watch and confirm the code it shows.
+4. **Pair.** In Home Assistant: WristTalk → **+ Add watch**. Open WristTalk on the watch and type the code it shows in Home Assistant. Pairing stays open for 3 minutes.
 
 The watch always talks to Home Assistant through your phone - also at home.
 
@@ -33,7 +33,7 @@ The watch always talks to Home Assistant through your phone - also at home.
 | **START** | Speak a command. Press again to send it at once. |
 | **BACK** | Cancel a command. On the idle screen: close the app. |
 | **UP / DOWN** | Scroll the conversation. |
-| **Hold UP** | Text only on / off. |
+| **Hold UP** | Menu: *Text only* on / off, *Pair again*, the app's version. |
 | **Touch** | Drag to scroll. A tap only wakes the screen. |
 
 ## Settings
@@ -43,7 +43,6 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 | Setting | What it does |
 |---|---|
 | **House address** | Where the watch finds your Home Assistant. |
-| **Reconnect to the house** | Pairs the watch again from the start. After pairing this option switches itself off. |
 | **Listen as soon as it opens** | Opening the app starts listening at once. |
 | **After a reply** | *Wait for START* or *Keep listening* for a conversation. With *Keep listening*, the watch may take a conversation or a radio nearby for a command. |
 | **Reply** | *Voice and text* or *Text only*. |
@@ -54,13 +53,16 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 
 ## In Home Assistant
 
-Each watch has its own device card with three settings.
+Each watch has its own device card with three settings and a status.
 
 | Setting | What it does |
 |---|---|
 | **Assistant** | The Assist pipeline the watch uses. |
 | **Finished speaking detection** | How soon a command ends after you stop. *Default* suits most. |
 | **Reply voice quality** | *Fast* (default) arrives soonest. *Best* sounds better with headphones. |
+| **Status** | *Paired* or *Needs pairing again*. |
+
+**Pair again:** the ⚙ next to the watch in the WristTalk integration. The watch and its settings stay; only its key changes.
 
 ## Something wrong?
 
@@ -71,6 +73,6 @@ Each watch has its own device card with three settings.
 | **Update WristTalk on the watch** | Update the watch app. |
 | **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
 | **I did not hear anything** | Press START and say it again. |
-| **Pairing again** | The watch was removed in Home Assistant, or Reconnect was on. Click **+ Add watch** in the WristTalk integration in Home Assistant. |
+| **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)

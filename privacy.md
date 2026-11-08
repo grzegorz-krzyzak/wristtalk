@@ -30,7 +30,7 @@ WristTalk is made by me, Grzegorz Krzyżak.
 | The recognised command and the reply (text and audio) | to show and play the reply | received from your Home Assistant | on screen until the app closes; not stored |
 | Pairing key | to prove the watch to your Home Assistant | stored on the watch; Home Assistant stores only a hash of it | until you pair again or remove the app |
 | House address and the app's settings | to reach your Home Assistant, your preferences | stored on the watch; edited in the Connect IQ app on your phone, which passes them to the watch | until you change them or remove the app |
-| A watch identifier, the watch model and the app version | to tell your watches apart when pairing | sent to your Home Assistant once, at pairing | kept in Home Assistant with the watch |
+| A watch identifier, the watch model and the app version | to tell your watches apart when pairing; the app version also to check that the watch and the integration fit | the identifier and the model sent to your Home Assistant at pairing; the app version with every request | kept in Home Assistant with the watch |
 
 The watch identifier is the one Connect IQ gives each app on each watch; it is not your Garmin
 account and it differs between apps.
