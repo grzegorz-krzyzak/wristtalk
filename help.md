@@ -64,6 +64,7 @@ Each watch has its own device card with three settings and a status.
 | **Update WristTalk on the watch** | Update the watch app. |
 | **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
 | **I did not hear anything** | Press START and say it again. |
+| **Speech recognition in Home Assistant is not working** | Press START and say it again. If it keeps coming back, check speech-to-text in your Assist pipeline in Home Assistant. |
 | **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
