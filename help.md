@@ -50,7 +50,7 @@ Each watch has its own device card with three settings and a status.
 |---|---|
 | **Assistant** | The Assist pipeline the watch uses. |
 | **Finished speaking detection** | How soon a command ends after you stop. *Default* suits most. |
-| **Reply voice quality** | *Balanced* (default) sounds clear on the watch. *Fast* is a little rougher; *Best* sounds better with headphones. |
+| **Reply voice quality** | *Balanced* (default) sounds clear on the watch. *Fast* is smaller and a little rougher; *Best* is the largest. |
 | **Status** | *Paired* or *Needs pairing again*. |
 
 **Pair again:** the ⚙ next to the watch in the WristTalk integration. The watch and its settings stay; only its key changes.
