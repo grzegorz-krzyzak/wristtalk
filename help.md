@@ -10,7 +10,7 @@ permalink: /help/
 
 You need Home Assistant reachable over **HTTPS** (for example Home Assistant Cloud) and your phone with **Garmin Connect** near the watch - the watch talks to your house through it.
 
-1. **Install the integration.** In Home Assistant, add [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) through HACS.
+1. **Install the integration.** In Home Assistant, add [WristTalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) from the Marketplace (Home Assistant 2026.11 or newer: Settings → Marketplace → **Add from link**) or through HACS.
 2. **Copy the address.** The integration's options show the address for the watches as a link - copy it.
 3. **Paste it in the Connect IQ app.** WristTalk → Settings → **House address** → Save.
 4. **Pair.** In Home Assistant: WristTalk → **+ Add watch**. Open WristTalk on the watch and type the code it shows in Home Assistant. Pairing stays open for 3 minutes.
@@ -62,7 +62,7 @@ Each watch has its own device card with three settings and a status.
 | **No connection to the phone** | Turn on Bluetooth and open Garmin Connect. |
 | **The house address must start with `https://`** | Use an HTTPS address.<br>Plain `http://` does not work, not even at home. |
 | **Update WristTalk on the watch** | Update the watch app. |
-| **Update the WristTalk integration in Home Assistant** | Update the integration in HACS. |
+| **Update the WristTalk integration in Home Assistant** | Update the integration in the Marketplace (or HACS). |
 | **I did not hear anything** | Press START and say it again. |
 | **Speech recognition in Home Assistant is not working** | Press START and say it again. If it keeps coming back, check speech-to-text in your Assist pipeline in Home Assistant. |
 | **Voice did not arrive** | The reply is on the screen; only its voice is missing. If it keeps coming back, keep the phone near the watch and check text-to-speech in your Assist pipeline in Home Assistant. |

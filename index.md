@@ -37,7 +37,7 @@ the reply in a chat view - long conversations scroll with a finger or the button
 
 | What you need | What to do |
 |---|---|
-| **Home Assistant integration** - [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) | Install it first, with [HACS](https://hacs.xyz/) |
+| **Home Assistant integration** - [ha-wristtalk](https://github.com/grzegorz-krzyzak/ha-wristtalk#readme) | Install it first, from the Marketplace in Home Assistant 2026.11 or newer, or with [HACS](https://hacs.xyz/) |
 | **Watch app** - [garmin-wristtalk](https://github.com/grzegorz-krzyzak/garmin-wristtalk#readme) | From the Connect IQ store - coming |
 
 ## Help
