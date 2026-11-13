@@ -47,3 +47,7 @@ How to set it up, what the buttons and the settings do: [Help](help/).
 ## Privacy
 
 Your voice goes only to your own Home Assistant. Read the [privacy policy](privacy/).
+
+## Support
+
+WristTalk is free. If it is useful to you, you can support it on [GitHub Sponsors](https://github.com/sponsors/grzegorz-krzyzak).

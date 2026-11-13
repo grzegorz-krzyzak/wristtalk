@@ -37,7 +37,8 @@ account and it differs between apps.
 
 The app records only for a command: when you press START, when you open the app (if "listen as soon
 as it opens" is on - the default) and right after a reply (if "keep listening" is on). It stops when
-the command ends, shows a recording dot meanwhile, and does not listen in the background.
+the command ends - the watch shows its own microphone sign meanwhile - and does not listen in the
+background.
 
 ## How the data travels
 
@@ -60,7 +61,10 @@ under their own privacy policies. Those are your choices and are outside this ap
 
 Because your data from WristTalk never reaches me, I hold nothing about you to give you access to,
 correct or delete. Everything is in your own Home Assistant and with the providers you chose there -
-ask them, or remove it there yourself.
+ask them, or remove it there yourself. If you support WristTalk on GitHub Sponsors, what I see about
+that is described under "Support" below; your rights to it (access, correction, and the rest under the
+GDPR, as far as the tax law that requires keeping it allows) - ask at
+[wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com).
 
 ## Sharing
 
@@ -74,6 +78,17 @@ This website is hosted on GitHub Pages; GitHub may log visitors' IP addresses - 
 [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 The pages load nothing from other sites (no fonts, scripts or images from elsewhere) and use no
 cookies.
+
+## Support (GitHub Sponsors)
+
+WristTalk is free; supporting it is voluntary and gives nothing in return. Support goes through GitHub
+Sponsors, run by GitHub, Inc., with payments processed by Stripe - the watch app and the integration send
+nothing for it. I see what GitHub shows to a sponsored account: the sponsor's GitHub account name and the
+amount, unless the sponsor chose to sponsor privately, and the payouts. This is used only to settle the
+income as Polish tax law requires (legal basis: GDPR Art. 6(1)(c)) and kept as long as that law requires.
+What GitHub and Stripe process is covered by their own privacy statements:
+[GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
+[Stripe](https://stripe.com/privacy). Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com).
 
 ## Children
 

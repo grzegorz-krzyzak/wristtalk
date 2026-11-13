@@ -71,3 +71,5 @@ Each watch has its own device card with three settings and a status.
 | **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. After 10 minutes the watch stops asking: *Pairing stopped* - press START to try again. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
+
+WristTalk is free. If it is useful to you, you can support it on [GitHub Sponsors](https://github.com/sponsors/grzegorz-krzyzak).
