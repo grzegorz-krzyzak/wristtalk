@@ -38,7 +38,6 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 | **After a reply** | *Wait for START* or *Keep listening* for a conversation. With *Keep listening*, the watch may take a conversation or a radio nearby for a command. |
 | **Reply** | *Voice and text* or *Text only*. |
 | **Reply volume** | Quiet, Medium or Loud. |
-| **Text size** | Small or Large. |
 | **Vibration** | *Off*, *Minimal* (reply and errors) or *Full*. |
 | **Close when idle** | After this time the app asks *Stay?*, then closes. |
 
