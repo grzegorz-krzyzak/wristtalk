@@ -64,8 +64,10 @@ Each watch has its own device card with three settings and a status.
 | **Update the WristTalk integration in Home Assistant** | Update the integration in the Marketplace (or HACS). |
 | **I did not hear anything** | Press START and say it again. |
 | **Speech recognition in Home Assistant is not working** | Press START and say it again. If it keeps coming back, check speech-to-text in your Assist pipeline in Home Assistant. |
+| **Home Assistant cannot take the command right now** | Home Assistant is restarting or reloading WristTalk, or its Assist pipeline failed. Press START in a moment. If it keeps coming back, check the Assist pipeline in Home Assistant. |
+| **Command already sent** | You pressed BACK after Home Assistant had your command: it runs anyway (a gate opens, a light turns on) - only the reply is not shown. |
 | **Voice did not arrive** | The reply is on the screen; only its voice is missing. If it keeps coming back, keep the phone near the watch and check text-to-speech in your Assist pipeline in Home Assistant. |
 | **Voice cut off** | The voice stopped midway - the whole reply is on the screen. Usually the phone lost the watch for a moment; keep it near. |
-| **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. |
+| **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. After 10 minutes the watch stops asking: *Pairing stopped* - press START to try again. |
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
