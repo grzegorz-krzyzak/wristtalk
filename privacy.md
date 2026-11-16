@@ -88,7 +88,7 @@ amount, unless the sponsor chose to sponsor privately, and the payouts. This is 
 income as Polish tax law requires (legal basis: GDPR Art. 6(1)(c)) and kept as long as that law requires.
 What GitHub and Stripe process is covered by their own privacy statements:
 [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
-[Stripe](https://stripe.com/privacy). Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com).
+[Stripe](https://stripe.com/privacy).
 
 ## Children
 
