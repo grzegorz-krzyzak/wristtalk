@@ -4,7 +4,7 @@ title: Privacy Policy
 permalink: /privacy/
 ---
 
-*Effective date: 2026-11-02.*
+*Effective date: 2026-11-16.*
 
 WristTalk is a voice assistant for [Home Assistant](https://www.home-assistant.io/) on a [Garmin](https://www.garmin.com/) watch. It has two parts:
 
