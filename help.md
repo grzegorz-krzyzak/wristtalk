@@ -90,7 +90,7 @@ The phone enlarges the watch's small icon (30 × 30 pixels). On the watch it is 
 <details markdown="1">
 <summary><b>Which watches does WristTalk work on?</b></summary>
 
-The fēnix 8 Solar 51 mm (and the tactix 8 Solar 51 mm). Other watches need a microphone and a speaker for Connect IQ apps, and their own screen layout - ask through the store page if you would like yours.
+The store page lists the watches it installs on. It is tested on a fēnix 8 Solar 51 mm. Would you like it on another watch? Ask through the store page.
 
 </details>
 
