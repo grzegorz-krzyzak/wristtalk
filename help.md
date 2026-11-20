@@ -27,6 +27,8 @@ The watch always talks to Home Assistant through your phone - also at home.
 | **Hold UP** | Menu: *Text only* on / off, *Pair again*, the app's version. |
 | **Touch** | Drag to scroll. A tap only wakes the screen. |
 
+**From the watch face:** add WristTalk to a Face It face or to a Connect IQ face that takes other apps' complications, then hold it to open WristTalk. Garmin's built-in faces do not take it (checked on the fēnix 8).
+
 ## Settings
 
 In the Connect IQ app on your phone: WristTalk → Settings.
@@ -40,6 +42,7 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 | **Reply volume** | Quiet, Medium or Loud. |
 | **Vibration** | *Off*, *Minimal* (reply and errors) or *Full*. |
 | **Close when idle** | After this time the app asks *Stay?*, then closes. |
+| **Watch face text** | The text next to the WristTalk icon on a watch face, up to 12 characters. Empty: the icon alone. The face shows a new text the next time WristTalk opens. |
 
 ## In Home Assistant
 
