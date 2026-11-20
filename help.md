@@ -4,7 +4,7 @@ title: Help
 permalink: /help/
 ---
 
-[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Something wrong?](#something-wrong)
+[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong?](#something-wrong)
 
 ## Set up
 
@@ -42,7 +42,7 @@ In the Connect IQ app on your phone: WristTalk → Settings.
 | **Reply volume** | Quiet, Medium or Loud. |
 | **Vibration** | *Off*, *Minimal* (reply and errors) or *Full*. |
 | **Close when idle** | After this time the app asks *Stay?*, then closes. |
-| **Watch face text** | The text next to the WristTalk icon on a watch face, up to 12 characters. Empty: the icon alone. The face shows a new text the next time WristTalk opens. |
+| **Watch face text** | The text of WristTalk on a watch face, up to 12 characters. Empty: the icon alone. See [Questions](#questions) when the face keeps the old text. |
 
 ## In Home Assistant
 
@@ -56,6 +56,43 @@ Each watch has its own device card with three settings and a status.
 | **Status** | *Paired* or *Needs pairing again*. |
 
 **Pair again:** the ⚙ next to the watch in the WristTalk integration. The watch and its settings stay; only its key changes.
+
+## Questions
+
+<details markdown="1">
+<summary><b>Can I put WristTalk on my watch face?</b></summary>
+
+Yes, on a **Face It** face (in the Connect IQ app) and on Connect IQ faces that take other apps' complications. Hold it on the face to open WristTalk - a tap does not open it. Garmin's built-in faces, the hot keys and the controls menu do not take Connect IQ apps (checked on the fēnix 8).
+
+</details>
+
+<details markdown="1">
+<summary><b>The face shows nothing, or "--", where WristTalk should be.</b></summary>
+
+Open WristTalk once after installing or updating it - the face gets its text then. Some faces show only the text, not the icon: with an empty *Watch face text* they show nothing.
+
+</details>
+
+<details markdown="1">
+<summary><b>I changed the watch face text, but the face still shows the old one.</b></summary>
+
+Open WristTalk once, then open any app from the app list and go back to the watch face. Opening WristTalk from the face itself does not refresh it.
+
+</details>
+
+<details markdown="1">
+<summary><b>Why does the WristTalk icon look blurry in the Connect IQ app?</b></summary>
+
+The phone enlarges the watch's small icon (30 × 30 pixels). On the watch it is sharp.
+
+</details>
+
+<details markdown="1">
+<summary><b>Which watches does WristTalk work on?</b></summary>
+
+The fēnix 8 Solar 51 mm (and the tactix 8 Solar 51 mm). Other watches need a microphone and a speaker for Connect IQ apps, and their own screen layout - ask through the store page if you would like yours.
+
+</details>
 
 ## Something wrong?
 
