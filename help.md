@@ -4,7 +4,7 @@ title: Help
 permalink: /help/
 ---
 
-[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong on the watch?](#something-wrong-on-the-watch)
+[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong on the watch?](#something-wrong-on-the-watch) · [Contact & support](#contact--support)
 
 ## Set up
 
@@ -175,6 +175,8 @@ After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings �
 
 </details>
 
-Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
+## Contact & support
+
+Questions, problems or ideas: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
 
 WristTalk is free. If it is useful to you, you can support it on [GitHub Sponsors](https://github.com/sponsors/grzegorz-krzyzak).
