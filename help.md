@@ -76,7 +76,7 @@ Open WristTalk once after installing or updating it - the face gets its text the
 <details markdown="1">
 <summary><b>I changed the watch face text, but the face still shows the old one.</b></summary>
 
-Open WristTalk once, then open any app from the app list and go back to the watch face. Opening WristTalk from the face itself does not refresh it.
+Open WristTalk (or any app) from the glance list or the app list, then go back to the watch face. Opening WristTalk by holding it on the face does not refresh the face.
 
 </details>
 
