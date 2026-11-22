@@ -4,7 +4,7 @@ title: Help
 permalink: /help/
 ---
 
-[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong?](#something-wrong)
+[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong on the watch?](#something-wrong-on-the-watch)
 
 ## Set up
 
@@ -94,21 +94,86 @@ The store page lists the watches it installs on. It is tested on a fēnix 8 Sola
 
 </details>
 
-## Something wrong?
+## Something wrong on the watch?
 
-| On the watch | What to do |
-|---|---|
-| **No connection to the phone** | Turn on Bluetooth and open Garmin Connect. |
-| **The house address must start with `https://`** | Use an HTTPS address.<br>Plain `http://` does not work, not even at home. |
-| **Update WristTalk on the watch** | Update the watch app. |
-| **Update the WristTalk integration in Home Assistant** | Update the integration in the Marketplace (or HACS). |
-| **I did not hear anything** | Press START and say it again. |
-| **Speech recognition in Home Assistant is not working** | Press START and say it again. If it keeps coming back, check speech-to-text in your Assist pipeline in Home Assistant. |
-| **Home Assistant cannot take the command right now** | Home Assistant is restarting or reloading WristTalk, or its Assist pipeline failed. Press START in a moment. If it keeps coming back, check the Assist pipeline in Home Assistant, and that the watch is not disabled there (Settings → Devices & services → WristTalk → the watch: enable it). |
-| **Command already sent** | You pressed BACK after Home Assistant had your command: it runs anyway (a gate opens, a light turns on) - only the reply is not shown. |
-| **Voice did not arrive** | The reply is on the screen; only its voice is missing. If it keeps coming back, keep the phone near the watch and check text-to-speech in your Assist pipeline in Home Assistant. |
-| **Voice cut off** | The voice stopped midway - the whole reply is on the screen. Usually the phone lost the watch for a moment; keep it near. |
-| **Pairing** with a code | After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. After 10 minutes the watch stops asking: *Pairing stopped* - press START to try again. |
+What the watch says, and what to do.
+
+<details markdown="1">
+<summary><b>No connection to the phone</b></summary>
+
+Turn on Bluetooth and open Garmin Connect.
+
+</details>
+
+<details markdown="1">
+<summary><b>The house address must start with <code>https://</code></b></summary>
+
+Use an HTTPS address. Plain `http://` does not work, not even at home.
+
+</details>
+
+<details markdown="1">
+<summary><b>Update WristTalk on the watch</b></summary>
+
+Update the watch app.
+
+</details>
+
+<details markdown="1">
+<summary><b>Update the WristTalk integration in Home Assistant</b></summary>
+
+Update the integration in the Marketplace (or HACS).
+
+</details>
+
+<details markdown="1">
+<summary><b>I did not hear anything</b></summary>
+
+Press START and say it again.
+
+</details>
+
+<details markdown="1">
+<summary><b>Speech recognition in Home Assistant is not working</b></summary>
+
+Press START and say it again. If it keeps coming back, check speech-to-text in your Assist pipeline in Home Assistant.
+
+</details>
+
+<details markdown="1">
+<summary><b>Home Assistant cannot take the command right now - try again shortly</b></summary>
+
+Home Assistant is restarting or reloading WristTalk, or its Assist pipeline failed. Press START in a moment. If it keeps coming back, check the Assist pipeline in Home Assistant, and that the watch is not disabled there (Settings → Devices & services → WristTalk → the watch: enable it).
+
+</details>
+
+<details markdown="1">
+<summary><b>Command already sent</b></summary>
+
+You pressed BACK after Home Assistant had your command: it runs anyway (a gate opens, a light turns on) - only the reply is not shown.
+
+</details>
+
+<details markdown="1">
+<summary><b>Voice did not arrive</b></summary>
+
+The reply is on the screen; only its voice is missing. If it keeps coming back, keep the phone near the watch and check text-to-speech in your Assist pipeline in Home Assistant.
+
+</details>
+
+<details markdown="1">
+<summary><b>Voice cut off</b></summary>
+
+The voice stopped midway - the whole reply is on the screen. Usually the phone lost the watch for a moment; keep it near.
+
+</details>
+
+<details markdown="1">
+<summary><b>The watch shows a pairing code</b></summary>
+
+After *Pair again*: in Home Assistant, the ⚙ next to the watch, or Settings → Repairs → **Fix**. The watch was removed in Home Assistant: **+ Add watch**. Then type the code from the watch. If the code is not typed within 3 minutes, the watch shows a new one. After 10 minutes the watch stops asking: *Pairing stopped* - press START to try again.
+
+</details>
 
 Questions: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
 
