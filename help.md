@@ -183,6 +183,8 @@ After *Pair again*: in Home Assistant, the âš™ next to the watch, or Settings â†
 
 ## Contact & support
 
-Questions, problems or ideas: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
+Something not working? Report it on GitHub: [github.com/grzegorz-krzyzak/ha-wristtalk/issues](https://github.com/grzegorz-krzyzak/ha-wristtalk/issues) (the watch app too). Do not paste your house address. No GitHub account? Write to [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com).
+
+Questions or ideas: [wristtalk.app@gmail.com](mailto:wristtalk.app@gmail.com)
 
 WristTalk is free. If it is useful to you, you can support it on [GitHub Sponsors](https://github.com/sponsors/grzegorz-krzyzak).
