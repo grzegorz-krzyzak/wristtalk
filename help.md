@@ -4,7 +4,13 @@ title: Help
 permalink: /help/
 ---
 
-[Set up](#set-up) · [Use](#use) · [Settings](#settings) · [In Home Assistant](#in-home-assistant) · [Questions](#questions) · [Something wrong on the watch?](#something-wrong-on-the-watch) · [Contact & support](#contact--support)
+- [Set up](#set-up)
+- [Use](#use)
+- [Settings](#settings)
+- [In Home Assistant](#in-home-assistant)
+- [Questions](#questions)
+- [Something wrong on the watch?](#something-wrong-on-the-watch)
+- [Contact & support](#contact--support)
 
 ## Set up
 
