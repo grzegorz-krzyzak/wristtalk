@@ -28,7 +28,7 @@ The watch always talks to Home Assistant through your phone - also at home.
 | Button | What it does |
 |---|---|
 | **START** | Speak a command. Press again to send it at once. |
-| **BACK** | Cancel a command. On the idle screen: close the app. |
+| **BACK** | While you speak: cancel the command - the watch says whether Home Assistant stopped it. While the reply plays: stop the voice. On the idle screen: close the app. |
 | **UP / DOWN** | Scroll the conversation. |
 | **Hold UP** | Menu: *Text only* on / off, *Pair again*, the app's version. |
 | **Touch** | Drag to scroll. A tap only wakes the screen. |
@@ -90,6 +90,13 @@ Open WristTalk (or any app) from the glance list or the app list, then go back t
 <summary><b>Why does the WristTalk icon look blurry in the Connect IQ app?</b></summary>
 
 The phone enlarges the watch's small icon (30 × 30 pixels). On the watch it is sharp.
+
+</details>
+
+<details markdown="1">
+<summary><b>What if I leave a command halfway?</b></summary>
+
+It never runs by itself. BACK while you speak cancels it, and the watch says whether it was stopped in time. If you open the menu, leave the app or the watch loses the phone instead, Home Assistant drops the command once the watch stops sending it. A command Home Assistant had already recognised (you had finished speaking) still runs.
 
 </details>
 
@@ -157,6 +164,20 @@ Home Assistant is restarting or reloading WristTalk, or its Assist pipeline fail
 <summary><b>Command already sent</b></summary>
 
 You pressed BACK after Home Assistant had your command: it runs anyway (a gate opens, a light turns on) - only the reply is not shown.
+
+</details>
+
+<details markdown="1">
+<summary><b>Too late, command sent</b></summary>
+
+You pressed BACK while speaking, but Home Assistant had already recognised the command: it runs anyway, and its reply follows.
+
+</details>
+
+<details markdown="1">
+<summary><b>Cancel not confirmed</b></summary>
+
+You pressed BACK while speaking, but Home Assistant did not answer in time - usually the phone lost the watch for a moment. If Home Assistant had already recognised the command, it may have run: check in Home Assistant. Keep the phone near the watch.
 
 </details>
 
