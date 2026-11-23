@@ -28,7 +28,7 @@ The watch always talks to Home Assistant through your phone - also at home.
 | Button | What it does |
 |---|---|
 | **START** | Speak a command. Press again to send it at once. |
-| **BACK** | While you speak: cancel the command - the watch says whether Home Assistant stopped it. While the reply plays: stop the voice. On the idle screen: close the app. |
+| **BACK** | While you speak or the watch recognises the command: cancel it - the watch says whether Home Assistant stopped it. While the reply's voice plays: stop it. On the idle screen: close the app. |
 | **UP / DOWN** | Scroll the conversation. |
 | **Hold UP** | Menu: *Text only* on / off, *Pair again*, the app's version. |
 | **Touch** | Drag to scroll. A tap only wakes the screen. |
